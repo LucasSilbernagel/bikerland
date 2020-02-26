@@ -12,5 +12,156 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 
 /* General site styles */
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 95%;
+    max-width: 1368px;
+    margin: 0 auto;
+}
+
+body {
+    background: #4A4A4A;
+    font-family: 'Catamaran';
+}
+
+h1,
+h2,
+h4 {
+    font-family: 'Pacifico';
+}
+
+button {
+    font-weight: 700;
+}
+
+h1,
+.header-icons,
+button,
+h3,
+h4 {
+    color: #F2A11C;
+}
+
+nav,
+.products i,
+footer p {
+    color: #FFFFFF;
+}
+
+li {
+    list-style: none;
+}
 /* General site styles end */
+
+/* Header styles */
+    header,
+    .hero {
+        height: 100vh;
+        width: 100%
+    }
+
+    .hero {
+        background-image: url(./assets/image-1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    nav {
+        padding-top: 25px;
+    }
+
+    nav ul,
+    nav li {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    nav li {
+        width: 80px;
+        font-size: 1.1rem;
+        display: inline-block;
+    }
+
+    h1 {
+        font-size: 6.5rem;
+        width: 67%;
+        float: left;
+        margin-top: 235px;
+        text-align: right;
+    }
+
+    .header-icons {
+        font-size: 1.5rem;
+        float: right;
+        margin-top: 200px;
+        margin-right: 60px;
+    }
+
+    .header-icons li {
+        height: 35px;
+    }
+/* Header styles end */
+
+/* Main styles */
+.about,
+.mission {
+    float: left;
+    width: 50%;
+    padding-top: 130px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.mission,
+.image-7 {
+    height: 509.25px;
+}
+
+img {
+    float: left;
+    width: 50%;
+}
+
+h2,
+main p {
+    color: #1F2022;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+main p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+button {
+    background: #1F2022;
+    border: none;
+    text-transform: uppercase;
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+/* .alissa {
+    background: #FFFFFF;
+    width: 100%;
+    height: 500px;
+}
+
+.alissa-photo {
+    width: 10%;
+} */
+
+/* Main styles end */
+
+/* Footer styles */
+
+/* Footer styles end */
 
