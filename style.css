@@ -149,19 +149,149 @@ button {
     margin-top: 20px;
 }
 
-/* .alissa {
+.alissa {
     background: #FFFFFF;
     width: 100%;
-    height: 500px;
+    height: 65vh;
+    float: left;
 }
 
 .alissa-photo {
-    width: 10%;
-} */
+    width: 20%;
+    margin-right: 40px;
+    margin-left: 120px;
+    margin-top: 90px;
+}
+
+.alissa-article {
+    width: 85%;
+    margin-top: 50px;
+}
+
+.alissa-article p {
+    margin-top: 15px;
+}
+
+.products {
+    background: url(./assets/image-5.jpg);
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    float: left;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.products ul {
+    width: 100%;
+    text-align: center;
+    margin-top: 170px;
+}
+
+.products li {
+    display: inline-block;
+}
+
+.community {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.products i {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.gram {
+    text-align: center;
+    height: 355vh;
+    padding-top: 50px;
+}
+
+.gram h2 {
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.gram-photo-container {
+    display: inline-block;
+    width: 100%;
+}
+
+.gram img {
+    width: calc((100% / 3) - 100px);
+    margin-left: 75px;
+}
 
 /* Main styles end */
 
 /* Footer styles */
+footer,
+.footer-container {
+    height: 50vh;
+}
+
+.footer-nav {
+    text-transform: uppercase;
+}
+
+.footer-container {
+    background: #1F2022;
+    padding-top: 50px;
+}
+
+h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.footer-float {
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 120px;
+}
+
+.contact {
+    float: left;
+}
+
+.update {
+    float: right;
+    width: 54%;
+}
+
+form {
+    width: 100%;
+}
+
+input,
+footer button {
+    height: 40px;
+    float: left;
+}
+
+input {
+    width: 60%;
+    padding-left: 20px;
+}
+
+footer button {
+    background: #F2A11C;
+    color: #000000;
+    font-size: 0.9rem;
+    width: 130px;
+    margin: 0;
+}
+
+.copyright {
+    background: #000000;
+    color: #F4F4F4;
+    font-size: 1.1rem;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
 
 /* Footer styles end */
 

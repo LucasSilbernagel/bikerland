@@ -76,7 +76,7 @@
                         <i class="fa fa-bicycle"></i>
                         <h3>Products</h3>
                     </li>
-                    <li>
+                    <li class="community">
                         <i class="fa fa-users"></i>
                         <h3>Community</h3>
                     </li>
@@ -87,44 +87,51 @@
                 </ul>
             </section>
             <section class="gram">
-                <img src="./assets/image-8.jpg" alt="Person biking on a street during the day">
-                <img src="./assets/image-3.jpg" alt="Black and white image of a racing cyclist">
-                <img src="./assets/image-4.jpg" alt="White bicycle leaning against a wall">
+                <h2>The Gram</h2>
+                <div class="gram-photo-container">
+                    <img src="./assets/image-8.jpg" alt="Person biking on a street during the day">
+                    <img src="./assets/image-3.jpg" alt="Black and white image of a racing cyclist">
+                    <img src="./assets/image-4.jpg" alt="White bicycle leaning against a wall">
+                </div>
             </section>
         </div>
     </main>
     <footer>
         <div class="wrapper">
-            <nav class="footer-nav">
-                <ul>
-                    <li>
-                        <a>Home</a>
-                    </li>
-                    <li>
-                        <a>About</a>
-                    </li>
-                    <li>
-                        <a>Blog</a>
-                    </li>
-                    <li>
-                        <a>Contact</a>
-                    </li>
-                </ul>
-            </nav>
-            <section class="contact">
-                <h4>Contact</h4>
-                <p>info@email.com | 123 - 456 - 7890</p>
-                <p>123 some road, Toronto, ON</p>
-                <p>A5A 5A5</p>
-            </section>
-            <section class="update">
-                <h4>Stay updated</h4>
-                <p>Subscribe to our newsletter to stay updated.</p>
-                <form action="#">
-                    <input type="email" placeholder="email address">
-                    <button>subscribe</button>
-                </form>
-            </section>
+            <div class="footer-container">
+                <nav class="footer-nav">
+                    <ul>
+                        <li>
+                            <a>Home</a>
+                        </li>
+                        <li>
+                            <a>About</a>
+                        </li>
+                        <li>
+                            <a>Blog</a>
+                        </li>
+                        <li>
+                            <a>Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="footer-float">
+                    <section class="contact">
+                        <h4>Contact</h4>
+                        <p>info@email.com | 123 - 456 - 7890</p>
+                        <p>123 some road, Toronto, ON</p>
+                        <p>A5A 5A5</p>
+                    </section>
+                    <section class="update">
+                        <h4>Stay updated</h4>
+                        <p>Subscribe to our newsletter to stay updated.</p>
+                        <form class="clearfix" action="#">
+                            <input type="email" placeholder="email address">
+                            <button>subscribe</button>
+                        </form>
+                    </section>
+                </div>
+            </div>
             <p class="copyright">Copyright &#169 2020 Juno College</p>
         </div>
     </footer>
