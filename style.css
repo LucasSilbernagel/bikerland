@@ -359,6 +359,22 @@ footer button {
     .image-7 {
         margin-left: 250px;
     }
+
+    .alissa {
+        height: 75vh;
+        padding-right: 10px;
+    }
+
+    .alissa-photo {
+        width: 40%;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .alissa-article {
+        width: 50%;
+        float: right;
+    }
 }
 
 @media (max-width: 1180px) {
@@ -400,6 +416,10 @@ footer button {
         width: 80%;
         margin-left: 90px;
     }
+
+    .alissa-photo {
+        margin-top: 40px;
+    }
 }
 
 @media (max-width: 1020px) {
@@ -439,6 +459,35 @@ footer button {
     .about {
         margin-top: 200px;
     }
+
+    .alissa {
+        height: 140vh;
+    }
+
+    .alissa-photo {
+        margin-left: 250px;
+        margin-bottom: 40px;
+        margin-top: 30px;
+    }
+
+    .alissa-article {
+        float: none;
+        text-align: center;
+        margin-left: 200px;
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 905px) {
+    .alissa {
+        height: 145vh;
+    }
+
+    .alissa-photo {
+        min-width: 400px;
+        margin-left: 200px;
+    }
 }
 
 @media (max-width: 870px) {
@@ -453,6 +502,10 @@ footer button {
 
     .mission {
         height: 55vh;
+    }
+
+    .alissa-article {
+        width: 60%;
     }
 }
 
@@ -487,6 +540,16 @@ footer button {
         height: 45vh;
         padding: 0;
     }
+
+    .alissa {
+        height: 155vh;
+    }
+}
+
+@media (max-width: 740px) {
+    .alissa-photo {
+        margin-left: 100px;
+    }
 }
 
 @media (max-width: 680px) {
@@ -518,12 +581,26 @@ footer button {
     .mission {
         height: 45vh;
     }
+
+    .alissa-article {
+        min-width: 365px;
+    }
 }
 
 @media (max-width: 580px) {
 
     .image-2 {
         left: 10%;
+    }
+}
+
+@media (max-width: 550px) {
+    .alissa {
+        height: 135vh;
+    }
+
+    .alissa-photo {
+        min-width: 300px;
     }
 }
 
@@ -545,6 +622,10 @@ footer button {
     .mission {
         height: 55vh;
     }
+
+    .alissa-photo {
+        margin-left: 50px;
+    }
 }
 
 @media (max-width: 405px) {
@@ -556,6 +637,26 @@ footer button {
         min-width: 300px;
         width: 300px;
         left: 5%;
+    }
+
+    .alissa {
+        height: 135vh;
+    }
+
+    .alissa-photo {
+        min-width: 250px;
+    }
+
+    .alissa-article {
+        min-width: 300px;
+    }
+
+    .alissa h2 {
+        font-size: 2rem;
+    }
+
+    .alissa p {
+        font-size: 1rem;
     }
 }
 
