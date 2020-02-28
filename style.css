@@ -74,6 +74,16 @@ li {
         padding-top: 25px;
     }
 
+    nav button {
+        float: right;
+        font-size: 2rem;
+        width: 40px;
+        color: #FFFFFF;
+        background: transparent;
+        visibility: hidden;
+        margin-right: 15px;
+    }
+
     nav ul,
     nav li {
         margin: 0 auto;
@@ -82,7 +92,7 @@ li {
 
     nav li {
         width: 80px;
-        font-size: 1.1rem;
+        font-size: 1.3rem;
         display: inline-block;
     }
 
@@ -95,14 +105,14 @@ li {
     }
 
     .header-icons {
-        font-size: 1.5rem;
+        font-size: 1.9rem;
         float: right;
         margin-top: 200px;
         margin-right: 60px;
     }
 
     .header-icons li {
-        height: 35px;
+        height: 45px;
     }
 /* Header styles end */
 
@@ -124,6 +134,11 @@ li {
 img {
     float: left;
     width: 50%;
+}
+
+.image-2,
+.image-7 {
+    min-width: 684px;
 }
 
 h2,
@@ -232,10 +247,6 @@ footer,
     height: 50vh;
 }
 
-.footer-nav {
-    text-transform: uppercase;
-}
-
 .footer-container {
     background: #1F2022;
     padding-top: 50px;
@@ -295,3 +306,284 @@ footer button {
 
 /* Footer styles end */
 
+/* Media queries for responsive design */
+@media (max-width: 1434px) {
+
+    .gram {
+        clear: both;
+    }
+
+    .image-2 {
+        position: absolute;
+        top: 100%;
+        left: 25%;
+        /* width: 50%; */
+        width: auto;
+        height: auto;
+    }
+
+    .about,
+    .mission {
+        text-align: center;
+        width: 60%;
+    }
+
+    .about {
+        float: none;
+        padding: 0;
+        /* width: 50%; */
+        margin-top: 580px;
+        /* margin-left: 350px; */
+        margin-left: 280px;
+        margin-bottom: 60px;
+    }
+
+    .image-7 {
+        /* margin-left: 350px; */
+        /* min-width: 682px; */
+        /* width: auto; */
+        width: 60%;
+        height: auto;
+        margin-left: 220px;
+    }
+
+    .mission {
+        margin-left: 300px;
+        padding-top: 50px;
+        width: 60%;
+        height: 50vh;
+    }
+}
+
+@media (max-width: 1300px) {
+    .image-7 {
+        margin-left: 250px;
+    }
+}
+
+@media (max-width: 1180px) {
+    .about,
+    .mission {
+        width: 60%;
+        margin-left: 250px;
+    }
+}
+
+@media (max-width: 1125px) {
+    .hero {
+        background: url(./assets/image-1-resized.jpg);
+        height: 85vh;
+    }
+
+    .image-2,
+    .image7 {
+        min-width: 0;
+    }
+
+    .image-2 {
+        top: 85%;
+        left: 25%;
+        width: 50%;
+    }
+
+    .about,
+    .mission,
+    .image-7 {
+        margin-left: 180px;
+    }
+
+    .about {
+        margin-top: 360px;
+    }
+
+    .mission {
+        width: 80%;
+        margin-left: 90px;
+    }
+}
+
+@media (max-width: 1020px) {
+    .image-7 {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 980px) {
+    h1 {
+        font-size: 6rem;
+        margin-top: 190px;
+        margin-left: 100px;
+    }
+
+    .hero {
+        background: url(./assets/image-1-resized-2.jpg);
+        height: 70vh;
+    }
+
+    nav button {
+        visibility: visible;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .header-icons {
+        display: none;
+    }
+
+    .image-2 {
+        top: 70%;
+    }
+
+    .about {
+        margin-top: 200px;
+    }
+}
+
+@media (max-width: 870px) {
+
+    .about {
+        margin-top: 170px;
+    }
+
+    .image-7 {
+        margin-left: 50px;
+    }
+
+    .mission {
+        height: 55vh;
+    }
+}
+
+@media (max-width: 785px) {
+
+    .about {
+        /* margin-top: 140px;
+        margin-left: 150px; */
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 140px;
+    }
+
+    .image-2 {
+        min-width: 390px;
+    }
+
+    .image-7 {
+        min-width: 0;
+        min-height: 0;
+        height: auto;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+
+    .mission {
+        margin: 0 auto;
+        width: 100%;
+        height: 45vh;
+        padding: 0;
+    }
+}
+
+@media (max-width: 680px) {
+
+    .hero {
+        background: url(./assets/image-1-resized-3.jpg);
+        height: 48vh;
+    }
+
+    nav button {
+        margin-top: 0;
+    }
+
+    h1 {
+        margin-left: 55px;
+        margin-top: 130px;
+        font-size: 4rem;
+    }
+
+    .image-2 {
+        top: 48%;
+        left: 20%;
+    }
+
+    .about {
+        margin-top: 0;
+    }
+
+    .mission {
+        height: 45vh;
+    }
+}
+
+@media (max-width: 580px) {
+
+    .image-2 {
+        left: 10%;
+    }
+}
+
+@media (max-width: 535px) {
+
+    .hero {
+        background-position-x: -80px;
+    }
+}
+
+@media (max-width: 465px) {
+
+    .image-2 {
+        width: 70%;
+        height: auto;
+        left: 3%;
+    }
+
+    .mission {
+        height: 55vh;
+    }
+}
+
+@media (max-width: 405px) {
+    header {
+        height: 90vh;
+    }
+
+    .image-2 {
+        min-width: 300px;
+        width: 300px;
+        left: 5%;
+    }
+}
+
+@media (max-width: 379px) {
+
+    h1 {
+        font-size: 3.8rem;
+        margin-top: 200px;
+        margin-top: 140px;
+        margin-left: 55px;
+    }
+
+    .hero {
+        background-position-x: -150px;
+    }
+}
+
+@media (max-width: 350px) {
+
+    h1 {
+        margin-top: 200px;
+        margin-top: 140px;
+        margin-left: 35px;
+    }
+
+    .hero {
+        background-position-x: -170px;
+    }
+}
+
+/* Media queries end */
