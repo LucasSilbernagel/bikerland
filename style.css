@@ -307,12 +307,15 @@ footer button {
 /* Footer styles end */
 
 /* Media queries for responsive design */
-@media (max-width: 1434px) {
-
+@media (max-width: 1440px) {
     .gram {
         clear: both;
+        padding-top: 0;
+        height: 85vh;
     }
+}
 
+@media (max-width: 1434px) {
     .image-2 {
         position: absolute;
         top: 100%;
@@ -377,6 +380,24 @@ footer button {
     }
 }
 
+@media (max-width: 1200px) {
+    .gram {
+        height: 75vh;
+    }
+
+    .gram img {
+        min-width: 280px;
+    }
+
+    .gram-photo-container {
+        padding-left: 180px;
+    }
+
+    .image-4 {
+        display: none;
+    }
+}
+
 @media (max-width: 1180px) {
     .about,
     .mission {
@@ -420,6 +441,10 @@ footer button {
     .alissa-photo {
         margin-top: 40px;
     }
+
+    .gram-photo-container {
+        padding-left: 100px;
+    }
 }
 
 @media (max-width: 1020px) {
@@ -448,7 +473,7 @@ footer button {
         visibility: visible;
     }
 
-    nav ul {
+    header nav ul {
         display: none;
     }
 
@@ -491,6 +516,10 @@ footer button {
     .alissa-photo {
         min-width: 400px;
         margin-left: 200px;
+    }
+
+    .gram-photo-container {
+        padding-left: 0;
     }
 }
 
@@ -548,6 +577,12 @@ footer button {
     }
 }
 
+@media (max-width: 747px) {
+    .gram img {
+        margin-left: 30px;
+    }
+}
+
 @media (max-width: 740px) {
     .alissa-photo {
         margin-left: 100px;
@@ -595,6 +630,24 @@ footer button {
     }
 }
 
+@media (max-width: 652px) {
+    .gram img {
+        min-width: 250px;
+    }
+}
+
+@media (max-width: 630px) {
+    .gram {
+        height: 70vh;
+    }
+}
+
+@media (max-width: 590px) {
+    .gram img {
+        min-width: 200px;
+    }
+}
+
 @media (max-width: 580px) {
 
     .image-2 {
@@ -630,6 +683,16 @@ footer button {
 
     .hero {
         background-position-x: -80px;
+    }
+}
+
+@media (max-width: 485px) {
+    .gram {
+        height: 55vh;
+    }
+
+    .gram img {
+        min-width: 150px;
     }
 }
 
@@ -694,6 +757,10 @@ footer button {
     .hero {
         background-position-x: -150px;
     }
+
+    .gram img {
+        margin-left: 5px;
+    }
 }
 
 @media (max-width: 350px) {
@@ -710,6 +777,10 @@ footer button {
 
     .products {
         background-position-x: -1000px;
+    }
+
+    .gram {
+        height: 50vh;
     }
 }
 
