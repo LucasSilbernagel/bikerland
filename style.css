@@ -84,6 +84,11 @@ li {
         margin-right: 15px;
     }
 
+    nav button:hover {
+        color: #F2A11C;
+        background: transparent;
+    }
+
     nav ul,
     nav li {
         margin: 0 auto;
@@ -94,6 +99,11 @@ li {
         width: 80px;
         font-size: 1.3rem;
         display: inline-block;
+    }
+
+    nav li:hover {
+        color: #F2A11C;
+        cursor: pointer;
     }
 
     h1 {
@@ -113,6 +123,11 @@ li {
 
     .header-icons li {
         height: 45px;
+    }
+
+    .header-icons li:hover {
+        color: #FFFFFF;
+        cursor: pointer;
     }
 /* Header styles end */
 
@@ -164,6 +179,12 @@ button {
     margin-top: 20px;
 }
 
+button:hover {
+    background: #F2A11C;
+    color: #1F2022;
+    cursor: pointer;
+}
+
 .alissa {
     background: #FFFFFF;
     width: 100%;
@@ -207,6 +228,10 @@ button {
     display: inline-block;
 }
 
+.products li:hover {
+    cursor: pointer;
+}
+
 .community {
     margin-left: 80px;
     margin-right: 80px;
@@ -215,6 +240,10 @@ button {
 .products i {
     font-size: 3rem;
     margin-bottom: 20px;
+}
+
+.products i:hover {
+    color: #F2A11C;
 }
 
 .gram {
@@ -297,6 +326,11 @@ footer button {
     font-size: 0.9rem;
     width: 130px;
     margin: 0;
+}
+
+footer button:hover {
+    background: #4A4A4A;
+    color: #F2A11C;
 }
 
 .copyright {
