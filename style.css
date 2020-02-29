@@ -11,7 +11,6 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 /* Page setup ends */
 
 /* General site styles */
-
 * {
     margin: 0;
     padding: 0;
@@ -220,7 +219,6 @@ button:hover {
 
 .products ul {
     width: 100%;
-    text-align: center;
     margin-top: 170px;
 }
 
@@ -267,7 +265,6 @@ button:hover {
     width: calc((100% / 3) - 100px);
     margin-left: 75px;
 }
-
 /* Main styles end */
 
 /* Footer styles */
@@ -341,7 +338,6 @@ footer button:hover {
     text-align: center;
     padding-top: 10px;
 }
-
 /* Footer styles end */
 
 /* Media queries for responsive design */
@@ -358,7 +354,6 @@ footer button:hover {
         position: absolute;
         top: 100%;
         left: 25%;
-        /* width: 50%; */
         width: auto;
         height: auto;
     }
@@ -372,17 +367,12 @@ footer button:hover {
     .about {
         float: none;
         padding: 0;
-        /* width: 50%; */
         margin-top: 580px;
-        /* margin-left: 350px; */
         margin-left: 280px;
         margin-bottom: 60px;
     }
 
     .image-7 {
-        /* margin-left: 350px; */
-        /* min-width: 682px; */
-        /* width: auto; */
         width: 60%;
         height: auto;
         margin-left: 220px;
@@ -582,10 +572,7 @@ footer button:hover {
         min-width: 300px;
     }
 
-    footer input {
-        margin-top: 10px;
-    }
-
+    footer input,
     footer button {
         margin-top: 10px;
     }
@@ -607,7 +594,6 @@ footer button:hover {
 }
 
 @media (max-width: 870px) {
-
     .about {
         margin-top: 170px;
     }
@@ -626,7 +612,6 @@ footer button:hover {
 }
 
 @media (max-width: 785px) {
-
     .about {
         width: 100%;
         margin-left: auto;
@@ -679,7 +664,6 @@ footer button:hover {
 }
 
 @media (max-width: 680px) {
-
     .hero {
         background: url(./assets/image-1-resized-3.jpg);
         height: 48vh;
@@ -732,7 +716,6 @@ footer button:hover {
 }
 
 @media (max-width: 580px) {
-
     .image-2 {
         left: 10%;
     }
@@ -763,7 +746,6 @@ footer button:hover {
 }
 
 @media (max-width: 535px) {
-
     .hero {
         background-position-x: -80px;
     }
@@ -780,7 +762,6 @@ footer button:hover {
 }
 
 @media (max-width: 465px) {
-
     .image-2 {
         width: 70%;
         height: auto;
@@ -805,7 +786,6 @@ footer button:hover {
     footer input,
     footer button {
         min-width: 250px;
-        /* max-width: 250px; */
         width: 90%;
     }
 
@@ -823,8 +803,12 @@ footer button:hover {
         height: 90vh;
     }
 
-    .image-2 {
+    .image-2,
+    .alissa-article {
         min-width: 300px;
+    }
+
+    .image-2 {
         width: 300px;
         left: 5%;
     }
@@ -837,10 +821,6 @@ footer button:hover {
         min-width: 250px;
     }
 
-    .alissa-article {
-        min-width: 300px;
-    }
-
     .alissa h2 {
         font-size: 2rem;
     }
@@ -851,7 +831,6 @@ footer button:hover {
 }
 
 @media (max-width: 379px) {
-
     h1 {
         font-size: 3.8rem;
         margin-top: 200px;
@@ -869,7 +848,6 @@ footer button:hover {
 }
 
 @media (max-width: 350px) {
-
     h1 {
         margin-top: 200px;
         margin-top: 140px;
@@ -892,5 +870,4 @@ footer button:hover {
         width: 75px;
     }
 }
-
 /* Media queries end */
