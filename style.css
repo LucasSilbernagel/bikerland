@@ -254,7 +254,7 @@ footer,
 
 h4 {
     font-size: 1.5rem;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .footer-float {
@@ -280,6 +280,10 @@ input,
 footer button {
     height: 40px;
     float: left;
+}
+
+.subscribe {
+    margin-bottom: 10px;
 }
 
 input {
@@ -506,6 +510,51 @@ footer button {
         width: 50%;
         margin: 0 auto;
     }
+
+    footer,
+    .footer-container {
+        height: 65vh;
+    }
+
+    .footer-container {
+        padding-top: 10px;
+    }
+
+    .contact,
+    .update {
+        float: none;
+        text-align: center;
+    }
+
+    .footer-float {
+        padding-left: 0;
+    }
+
+    .update {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+    }
+
+    .subscribe {
+        min-width: 291px;
+    }
+
+    footer button,
+    footer input {
+        float: none;
+        width: 60%;
+        text-align: center;
+        min-width: 300px;
+    }
+
+    footer input {
+        margin-top: 10px;
+    }
+
+    footer button {
+        margin-top: 10px;
+    }
 }
 
 @media (max-width: 905px) {
@@ -713,6 +762,28 @@ footer button {
     }
 }
 
+@media (max-width: 450px) {
+    footer,
+    .footer-container {
+        height: 65vh;
+    }
+
+    footer input,
+    footer button {
+        min-width: 250px;
+        /* max-width: 250px; */
+        width: 90%;
+    }
+
+    .update {
+        width: 100%;
+    }
+
+    .subscribe {
+        min-width: 0;
+    }
+}
+
 @media (max-width: 405px) {
     header {
         height: 90vh;
@@ -781,6 +852,10 @@ footer button {
 
     .gram {
         height: 50vh;
+    }
+
+    footer li {
+        width: 75px;
     }
 }
 
