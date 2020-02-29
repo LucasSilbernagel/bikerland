@@ -25,12 +25,14 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 body {
     background: #4A4A4A;
     font-family: 'Catamaran';
+    font-display: swap;
 }
 
 h1,
 h2,
 h4 {
     font-family: 'Pacifico';
+    font-display: swap;
 }
 
 button {
