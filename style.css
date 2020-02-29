@@ -39,7 +39,7 @@ button {
 }
 
 h1,
-.header-icons,
+.header-icons a,
 button,
 h3,
 h4 {
@@ -125,7 +125,7 @@ li {
         height: 45px;
     }
 
-    .header-icons li:hover {
+    .header-icons a:hover {
         color: #FFFFFF;
         cursor: pointer;
     }
