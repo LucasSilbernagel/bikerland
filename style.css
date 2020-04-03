@@ -61,8 +61,8 @@ li {
 /* Header styles */
     header,
     .hero {
-        height: 100vh;
-        width: 100%
+        width: 100%;
+        height: 709px;
     }
 
     .hero {
@@ -189,7 +189,7 @@ button:hover {
 .alissa {
     background: #FFFFFF;
     width: 100%;
-    height: 65vh;
+    height: 460.85px;
     float: left;
 }
 
@@ -212,7 +212,7 @@ button:hover {
 .products {
     background: url(./assets/image-5.jpg);
     background-size: cover;
-    height: 60vh;
+    height: 425.4px;
     width: 100%;
     float: left;
     font-size: 1.2rem;
@@ -248,8 +248,9 @@ button:hover {
 
 .gram {
     text-align: center;
-    height: 355vh;
-    padding-top: 50px;
+    height: 602.65px;
+    clear: both;
+    padding-top: 0;
 }
 
 .gram h2 {
@@ -272,7 +273,7 @@ button:hover {
 /* Footer styles */
 footer,
 .footer-container {
-    height: 50vh;
+    height: 354.5px;
 }
 
 .footer-container {
@@ -343,18 +344,10 @@ footer button:hover {
 /* Footer styles end */
 
 /* Media queries for responsive design */
-@media (max-width: 1440px) {
-    .gram {
-        clear: both;
-        padding-top: 0;
-        height: 85vh;
-    }
-}
-
 @media (max-width: 1434px) {
     .image-2 {
         position: absolute;
-        top: 100%;
+        top: 709px;
         left: 25%;
         width: auto;
         height: auto;
@@ -384,7 +377,7 @@ footer button:hover {
         margin-left: 300px;
         padding-top: 50px;
         width: 60%;
-        height: 50vh;
+        height: 340px;
     }
 }
 
@@ -394,7 +387,7 @@ footer button:hover {
     }
 
     .alissa {
-        height: 75vh;
+        height: 510px;
         padding-right: 10px;
     }
 
@@ -412,7 +405,7 @@ footer button:hover {
 
 @media (max-width: 1200px) {
     .gram {
-        height: 75vh;
+        height: 510px;
     }
 
     .gram img {
@@ -439,7 +432,7 @@ footer button:hover {
 @media (max-width: 1125px) {
     .hero {
         background: url(./assets/image-1-resized.jpg);
-        height: 85vh;
+        height: 578px;
     }
 
     .image-2,
@@ -448,7 +441,7 @@ footer button:hover {
     }
 
     .image-2 {
-        top: 85%;
+        top: 578px;
         left: 25%;
         width: 50%;
     }
@@ -496,7 +489,7 @@ footer button:hover {
 
     .hero {
         background: url(./assets/image-1-resized-2.jpg);
-        height: 70vh;
+        height: 476px;
     }
 
     nav button {
@@ -512,7 +505,7 @@ footer button:hover {
     }
 
     .image-2 {
-        top: 70%;
+        top: 476px;
     }
 
     .about {
@@ -520,7 +513,7 @@ footer button:hover {
     }
 
     .alissa {
-        height: 140vh;
+        height: 952px;
     }
 
     .alissa-photo {
@@ -539,7 +532,7 @@ footer button:hover {
 
     footer,
     .footer-container {
-        height: 65vh;
+        height: 442px;
     }
 
     .footer-container {
@@ -582,7 +575,7 @@ footer button:hover {
 
 @media (max-width: 905px) {
     .alissa {
-        height: 145vh;
+        height: 986px;
     }
 
     .alissa-photo {
@@ -605,7 +598,7 @@ footer button:hover {
     }
 
     .mission {
-        height: 55vh;
+        height: 374px;
     }
 
     .alissa-article {
@@ -638,12 +631,12 @@ footer button:hover {
     .mission {
         margin: 0 auto;
         width: 100%;
-        height: 45vh;
+        height: 306px;
         padding: 0;
     }
 
     .alissa {
-        height: 155vh;
+        height: 1054px;
     }
 }
 
@@ -668,7 +661,7 @@ footer button:hover {
 @media (max-width: 680px) {
     .hero {
         background: url(./assets/image-1-resized-3.jpg);
-        height: 48vh;
+        height: 326.4px;
     }
 
     nav button {
@@ -682,7 +675,7 @@ footer button:hover {
     }
 
     .image-2 {
-        top: 48%;
+        top: 326.4px;
         left: 20%;
     }
 
@@ -691,7 +684,7 @@ footer button:hover {
     }
 
     .mission {
-        height: 45vh;
+        height: 306px;
     }
 
     .alissa-article {
@@ -707,7 +700,7 @@ footer button:hover {
 
 @media (max-width: 630px) {
     .gram {
-        height: 70vh;
+        height: 476px;
     }
 }
 
@@ -725,7 +718,7 @@ footer button:hover {
 
 @media (max-width: 550px) {
     .alissa {
-        height: 135vh;
+        height: 918px;
     }
 
     .alissa-photo {
@@ -733,7 +726,7 @@ footer button:hover {
     }
 
     .products {
-        height: 75vh;
+        height: 510px;
         background-position-x: -900px;
     }
 
@@ -755,7 +748,7 @@ footer button:hover {
 
 @media (max-width: 485px) {
     .gram {
-        height: 55vh;
+        height: 374px;
     }
 
     .gram img {
@@ -771,7 +764,7 @@ footer button:hover {
     }
 
     .mission {
-        height: 55vh;
+        height: 374px;
     }
 
     .alissa-photo {
@@ -782,7 +775,7 @@ footer button:hover {
 @media (max-width: 450px) {
     footer,
     .footer-container {
-        height: 65vh;
+        height: 442px;
     }
 
     footer input,
@@ -802,7 +795,7 @@ footer button:hover {
 
 @media (max-width: 405px) {
     header {
-        height: 90vh;
+        height: 650px;
     }
 
     .image-2,
@@ -816,7 +809,7 @@ footer button:hover {
     }
 
     .alissa {
-        height: 135vh;
+        height: 957.15px;
     }
 
     .alissa-photo {
@@ -865,7 +858,7 @@ footer button:hover {
     }
 
     .gram {
-        height: 50vh;
+        height: 354.5px;
     }
 
     footer li {
