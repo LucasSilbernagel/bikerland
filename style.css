@@ -260,7 +260,7 @@ img {
 
 .image-2,
 .image-7 {
-    min-width: 684px;
+    min-width: 650px;
 }
 
 h2,
@@ -450,7 +450,7 @@ footer button:hover {
 /* Footer styles end */
 
 /* Media queries for responsive design */
-@media (max-width: 1434px) {
+@media (max-width: 1400px) {
     .image-2 {
         position: absolute;
         top: 709px;
