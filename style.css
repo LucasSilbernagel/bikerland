@@ -87,7 +87,7 @@ li {
         }
         
         .mobile-nav {
-            opacity: 0;
+            right: -200px;
             visibility: hidden;
             position: fixed;
             background: #F2A11C;
@@ -95,7 +95,6 @@ li {
             z-index: 20;
             width: 170px;
             top: 60px;
-            right: 60px;
             transition: all 0.4s ease-in;
             display: inline-block;
         }
@@ -123,7 +122,7 @@ li {
         }
         
         #hamburger-toggle:checked ~ .mobile-nav {
-            opacity: 92%;
+            right: 60px;
             visibility: visible;
         }
         
@@ -170,7 +169,7 @@ li {
         
         .hamburger-toggle:checked + label .line1,
         .hamburger-toggle:checked + label .line3 {
-            opacity: 0%;
+            visibility: hidden;
         }
         
         .hamburger-toggle:checked + label .line1 {
