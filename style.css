@@ -207,7 +207,8 @@ li {
         display: inline-block;
     }
 
-    nav li:hover {
+    nav li:hover,
+    nav a:focus {
         color: #F2A11C;
         cursor: pointer;
     }
@@ -231,7 +232,8 @@ li {
         height: 45px;
     }
 
-    .header-icons a:hover {
+    .header-icons a:hover,
+    .header-icons a:focus {
         color: #FFFFFF;
         cursor: pointer;
     }
@@ -285,7 +287,8 @@ button {
     margin-top: 20px;
 }
 
-button:hover {
+button:hover,
+button:focus {
     background: #F2A11C;
     color: #1F2022;
     cursor: pointer;
@@ -433,7 +436,8 @@ footer button {
     margin: 0;
 }
 
-footer button:hover {
+footer button:hover,
+footer button:focus {
     background: #4A4A4A;
     color: #F2A11C;
 }
